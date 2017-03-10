@@ -25,7 +25,6 @@ class Book
     @chapters = []
   end
 
-
   def add_chapter(chapter)
 
     @chapters.push("#{@chapters.length+1}. #{chapter}")
